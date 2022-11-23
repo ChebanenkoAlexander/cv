@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <body className=" bg-slate-100 ">
       <Head>
-        <link rel="shortcut icon" href="/1.png" />
+       {/* <link rel="icon" href="/1.png"/> */}
         <title>Chebanenko Aleksandr</title>
       </Head>
 
@@ -90,7 +90,7 @@ export default function Home() {
             <div className="bg-cyan-700 p-7 flex items-center flex-col text-center">
               <img
                 className="w-2/3 rounded-full mb-3"
-                src="/avatar.jpg"
+                src="/avatar.png"
                 alt="Large avatar"
               />
 
