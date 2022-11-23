@@ -138,7 +138,7 @@ export default function Home() {
                   linkedin.com/in/александр-чебаненко...
                 </a>
               </p>
-              <p className="mb-96">
+              <p className="mb-8">
                 <a href="https://github.com/ChebanenkoAlexander">
                   <FontAwesomeIcon icon={faGithub} className="mr-8" />
                   github.com/ChebanenkoAlexander
