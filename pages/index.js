@@ -12,6 +12,7 @@ export default function Home() {
   return (
     <body className=" bg-slate-100 ">
       <Head>
+        <link rel="shortcut icon" href="/1.png" />
         <title>Chebanenko Aleksandr</title>
       </Head>
 
@@ -127,9 +128,9 @@ export default function Home() {
                 </a>
               </p>
               <p className="mb-3">
-                <a href="">
+                <a href="https://cv-red-nu.vercel.app/">
                   <FontAwesomeIcon icon={faInternetExplorer} className="mr-8" />
-                  вставть ссылку на сайт
+                  https://cv-red-nu.vercel.app/
                 </a>
               </p>
               <p className="mb-3">
