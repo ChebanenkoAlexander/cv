@@ -11,11 +11,11 @@ import { faEnvelope, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 export default function Home() {
   return (
     <body className=" bg-slate-100 ">
-      <Head>
-       {/* <link rel="icon" href="/1.png"/> */}
-        <title>Chebanenko Aleksandr</title>
-      </Head>
-
+      <body>
+        <Head>
+          <title>Chebanenko Aleksandr</title>
+        </Head>
+      </body>
       <main>
         <div className="mx-auto w-auto md:w-[960px] flex flex-col-reverse md:flex-row">
           <div className="w-auto md:w-[690px] p-16  bg-white">
@@ -145,7 +145,7 @@ export default function Home() {
                   github.com/ChebanenkoAlexander
                 </a>
               </p>
-              <p className="font-bold">СКАЧАТЬ PDF</p>
+              <button onClick={() => window.print()} className="font-bold">СКАЧАТЬ PDF</button>
             </div>
           </div>
         </div>
