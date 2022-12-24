@@ -64,7 +64,7 @@ export default function Right() {
               linkedin.com/in/александр-чебаненко...
             </a>
           </p>
-          <p className="mb-8">
+          <p className="mb-3">
             <a href="https://github.com/ChebanenkoAlexander">
               <FontAwesomeIcon icon={faGithub} className="mr-8" />
               github.com/ChebanenkoAlexander
